@@ -20,6 +20,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- If this receiver listens for broadcasts sent from the system or from
+        other apps, even other apps that you own, set android:exported to "true". -->
+        <!-- pre-Android 8.0 -->
+<!--        <receiver-->
+<!--            android:name=".MyBroadcastReceiver"-->
+<!--            android:exported="true">-->
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.AIRPLANE_MODE" />-->
+<!--            </intent-filter>-->
+<!--        </receiver>-->
     </application>
 
 </manifest>
